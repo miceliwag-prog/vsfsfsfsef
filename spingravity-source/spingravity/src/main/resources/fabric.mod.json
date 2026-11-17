@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "spingravity",
+  "version": "${version}",
+  "name": "Spin Gravity",
+  "description": "Artificial gravity for rotating habitats: gravity follows distance from the spin axis (lower when you are higher, stronger when you are lower). Set the spin in rpm or by target G, and see the gravity at sea level in Gs.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.spingravity.SpinGravity"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
